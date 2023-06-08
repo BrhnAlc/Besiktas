@@ -1,0 +1,122 @@
+
+
+:root{
+    --red:#dc3545;
+}
+
+/* !******  1-  NAVBAR    */
+
+.navbar .navbar-nav{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 600;
+    
+
+}
+.navbar .navbar-link{
+    transition: color o.7s;
+}
+.navbar .navbar-link:hover{
+    color: var(--red);
+}
+
+/* **** 2- CAROUSEL */
+
+.carousel-item{
+    max-height:calc(100vh - 110px ) ;
+    
+}
+
+.carousel-caption h5{
+    color: var(--red);
+    font-size:2.4rem ;
+    text-shadow: 3px 3px 3px black;
+}
+.carousel-caption p{
+    text-shadow: 3px 3px 3px black;
+    font-weight: 600;
+}
+.carousel-caption .btn {
+    width: 8rem;
+}
+.carousel-indicators{
+    gap:0.7rem;
+}
+
+
+
+.carousel-indicators button{
+    background-color: var(--red) !important;
+    height: 0.4rem !important;
+    width: 3rem !important;
+}
+
+
+/* !  ***** PLAYERS **** */
+
+section#players .card{
+    transition: transform 0.3s;
+    cursor:pointer;
+}
+
+section#players .card:hover{
+    transform: scale(1.03);
+}
+
+section#players i{
+    transition:opacity 0.6s;
+}
+
+section#playerss i:hover{
+    opacity: 0.5;
+}
+
+.teachers {
+    transition:opacity 0.6s;
+    border-radius: 20px;
+    background: 0% 0%;
+    background-color: #FFFFFF;
+    position: color #212529;
+}
+
+             /* *****!  communication */****
+
+
+             /* !!!! footer */
+footer i{
+    margin-right: 0.9rem;
+    transition: color 1s;
+    cursor: pointer;
+}
+
+
+footer i:hover{
+    color: var(--red);
+
+}
+
+       /*  */
+
+.btn-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    color: white;
+    /* background-color: var(--red); */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 1.4rem;
+
+}
+.btn-up:hover{
+    color: black;
+}
+.btn-up:hover i{
+    transform: scale(1.2);
+    font-size: 1.4rem;
+}
